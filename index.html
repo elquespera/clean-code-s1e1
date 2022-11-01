@@ -19,25 +19,25 @@
         <h3 class="heading"><label for="new-task" >Add Item</label></h3>
         <div class="add-task__wrapper">
           <input type="text" id="new-task" class="input-text tasks__item_common">
-          <button class="button">Add</button>
+          <button id="add-task-button" class="button">Add</button>
         </div>
       </section>
       <section class="incomplete">
         <h3 class="heading">Todo</h3>
-        <ul class="tasks" id="incompleteTasks">
+        <ul class="tasks" id="incomplete-tasks">
           <li class="tasks__item">
             <input type="checkbox" class="input-checkbox">
             <label class="tasks__item_common">Pay Bills</label>
             <input type="text" class="input-text tasks__input tasks__item_common">
             <button class="button button_edit">Edit</button>
-            <button class="button button__delete"></button>
+            <button class="button button_delete"></button>
           </li>
           <li class="tasks__item edit-mode">
             <input type="checkbox" class="input-checkbox">
             <label class="tasks__item_common edit-mode__label">Go Shopping</label>
             <input type="text" value="Go Shopping" class="input-text tasks__input tasks__item_common edit-mode__input">
             <button class="button button_edit">Save</button>
-            <button class="button button__delete"></button>
+            <button class="button button_delete"></button>
           </li>
         </ul>
       </section>
@@ -49,7 +49,7 @@
             <label class="tasks__item_common tasks__label_completed">See the Doctor</label>
             <input type="text" class="input-text tasks__input tasks__item_common">
             <button class="button button_edit">Edit</button>
-            <button class="button button__delete"></button>
+            <button class="button button_delete"></button>
           </li>
         </ul>
       </section>

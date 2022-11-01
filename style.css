@@ -34,7 +34,7 @@ button {
   color: #3a3a3a;
 }
 
-.button__delete {
+.button_delete {
   height: 2em;
   width: 2.5em;
   background-image: url("./remove.svg");
@@ -43,7 +43,7 @@ button {
   transition: transform 200ms ease-in;
 }
 
-.button__delete:hover {
+.button_delete:hover {
   transform: rotateZ(0);
 }
 
