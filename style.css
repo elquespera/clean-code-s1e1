@@ -34,13 +34,16 @@ button {
   color: #3a3a3a;
 }
 
-.button__img_delete {
+.button__delete {
   height: 2em;
+  width: 2.5em;
+  background-image: url("./remove.svg");
+  background-repeat: no-repeat;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.button__img_delete:hover {
+.button__delete:hover {
   transform: rotateZ(0);
 }
 
@@ -96,9 +99,11 @@ button {
   margin: 0 auto 0;
 }
 
-.main__task-wrapper {
+/* Add Task */
+
+.add-task__wrapper {
   display: flex;
-  margin-top: 20px;  
+  margin: 20px 0;  
 }
 
 /* Heading */
